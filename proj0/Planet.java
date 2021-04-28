@@ -9,7 +9,7 @@ public class Planet {
     public double yyVel;
     public double mass;
     public String imgFileName;
-    public static double GRAVITY_CONST = 6.67e-11;
+    private static double GRAVITY_CONST = 6.67e-11;
 
     /**
      * Constructor with parameters
